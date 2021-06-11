@@ -17,7 +17,7 @@
 ### IntelliJ IDEA settings
 Project Structure settings:
 1. Open File --> New --> Project from Version control --> Git
-2. Clone project from the repository by URL ""
+2. Clone project from the repository by URL "https://github.com/bpriyatham1/petapi"
 3. Open File --> Project Structure --> Project
 4. Select project SDK java 11 or higher
 5. Select project language level 11 (local variable syntax for lambda parameters)
@@ -55,23 +55,23 @@ allure serve /home/path/to/project/target/allure-results
 ```
 If report generated successfully, report page should be opened automatically in Web Browser:
 
-#####Allure Report Example ::
+##### Allure Report Example ::
 ![Allure Report](src/test/resources/AllureReport.png?raw=true "Allure Report Example")
-#####Results can be viewed in graphical view ::
+##### Results can be viewed in graphical view ::
 ![Allure Graph](src/test/resources/AllureGraph.png?raw=true "Results can be viewed in graphical view")
-#####Allure Timeline results can be viewed in Timeline View ::
+##### Allure Timeline results can be viewed in Timeline View ::
 ![Allure TimeLine](src/test/resources/AllureTimeline.png?raw=true "Allure Timeline results can be viewed in Timeline View")
-#####Allure Behaviour results can be viewed in Behaviour View ::
+##### Allure Behaviour results can be viewed in Behaviour View ::
 ![Allure Behaviours](src/test/resources/AllureBehaviours.png?raw=true "Allure Behaviour results can be viewed in Behaviour View")
-#####Rest Assured detailed logs can be viewed in test body ::
+##### Rest Assured detailed logs can be viewed in test body ::
 ![Allure RestAssuredLogs](src/test/resources/RestAssuredLogs.png?raw=true "Rest Assured detailed logs can be viewed in test body")
-#####Allure results can be viewed in form of Java Packages defined in project ::
+##### Allure results can be viewed in form of Java Packages defined in project ::
 ![Allure PackageView](src/test/resources/AllurePackageView.png?raw=true "Allure results can be viewed in form of Java Packages defined in project")
-#####Allure Results can be linked to Jira UserStory or TestCase as below ::
+##### Allure Results can be linked to Jira UserStory or TestCase as below ::
 ![Allure Report link to Jira](src/test/resources/JiraConnection.png?raw=true "Allure Results can be linked to Jira UserStory or TestCase as below")
-#####Results can be filtered by Pass,Fail,Broken,Ignored statuses ::
+##### Results can be filtered by Pass,Fail,Broken,Ignored statuses ::
 ![Allure Report with Test Status filters](src/test/resources/AllureFilterByStatus.png?raw=true "Results can be filtered by Pass,Fail,Broken,Ignored statuses")
-#####Allure Report Additional Features ::
+###### Allure Report Additional Features ::
 * Histories and Retries Tabs are also very informative.
 * Report also can be downloaded offline with very detailed information by clicking on download button in Allure report.
 * Allure Report can be easily integrated with Jenkins.
