@@ -1,0 +1,15 @@
+target/
+allure-results
+*.pid
+*.log
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
